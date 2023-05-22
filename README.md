@@ -37,5 +37,5 @@ The results of all models are presented below:
 | ClipCap       | 0.32       |
 | VLKD          | 0.17       |
 
-## What could be improved <a class="anchor" id="task5"></a>
+## Further improvements <a class="anchor" id="task5"></a>
 The model was not configured for the dataset. We can achieve better results and improve the metric if we try to select the parameters of the model.
