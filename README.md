@@ -17,14 +17,14 @@ the CapFilt image detector to describe the image. It is expensive to prepare dat
 To reduce the cost of data collection, data is collected from the Internet, image-text pairs are collected using parsing. CapFilt works as follows: the model generates a description of the image,
 and then compares the generated description with what was collected from the Internet and discards the least relevant. This allows you to clear the data from noise. In fact, we use another
 neural network to clear the data from noise.  
-In addition to using the pre-trained BLIP model, we also used other models to compare results and predictive ability. BLIP, ResNet & LSTM, CapDec, ClipCapm, VLKD were used.
+In addition to using the pre-trained BLIP model, we also used other models to compare results and predictive ability. We also compare the score with the scores of other existing models (CapDec, ClipCapm, VLKD).
 
 ### Metric
 The BLEU metric was used as metrics.
 
 ## Data <a class="anchor" id="task3"></a>
 In the project, we use the COCO dataset for 2014. The dataset is available for download on the official website. The COCO (Common Objects in Context) dataset is a widely used set
-of reference data for object detection, segmentation, and subtitle creation tasks. We will focus on the part of this dataset containing image captions. The dataset contains five
+of reference data for object detection, segmentation, and captioning tasks. We will focus on the part of this dataset containing image captions. The dataset contains five
 man-made captions for each image in the train, val, and test sets.
 
 ## Results <a class="anchor" id="task4"></a>
