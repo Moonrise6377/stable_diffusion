@@ -38,5 +38,4 @@ The results of all models are presented below:
 | VLKD          | 0.17       |
 
 ## What could be improved <a class="anchor" id="task5"></a>
-The model was not configured for the dataset. We can achieve better results and improve the metric if we try to select the parameters of the model. There is also already a BLIP-2 model, you can
-try to apply it and look at the actual differences in the predictive ability of models between versions.
+The model was not configured for the dataset. We can achieve better results and improve the metric if we try to select the parameters of the model.
